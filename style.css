@@ -1,7 +1,7 @@
 /* chung */
 #contenal{
     line-height: 1.5;
-    font-family: "Times New Roman","arial";
+    font-family: "Roboto" ;
 }
 button {
     border-radius: 2px;
@@ -46,6 +46,9 @@ ul{
     line-height: 0;
     content: "";
     clear: both;
+}
+body{
+    margin: 0;
 }
 #top{
     width: 100%;
@@ -130,6 +133,9 @@ ul{
 #list-menu li a{
     color: black;
 }
+#list-menu li a#here{
+    color: #56aaf2;
+}
 #list-menu li:hover > a{
     color: #56aaf2;
 }
@@ -195,6 +201,10 @@ ul{
     padding-top: 15px;
     float: left;
     cursor: pointer;
+}
+#banner-left p{
+    font-size: 26px;
+    line-height: 20px;
 }
 #banner-right{
     color: white;
@@ -319,11 +329,12 @@ ul{
     float: right;
     width: 210px;
     margin-top: 25px;
+    padding-top: 10px;
 }
-#sidebar h1{
-    margin: 0;
+#sidebar span{
     padding: 15px 0 0 15px;
     cursor: pointer;
+    font-size: 23px;
 }
 #tin-sidebar{
     width: 180px;
