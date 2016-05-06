@@ -1,5 +1,6 @@
 # trainee001
-Repo bài tập 1 cho thực tập
+
+Kết quả thực hiện bài tập trainee001 của Nguyễn Minh Hoàng
 
 Xem file [Hướng dẫn](https://github.com/colombo-trainee/trainee001/blob/master/requirements/hướng%20dẫn.md) để thực hiện
 
