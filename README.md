@@ -2,7 +2,7 @@
 
 Kết quả thực hiện bài tập trainee001 của Nguyễn Minh Hoàng
 
-Xem file [Hướng dẫn](https://github.com/colombo-trainee/trainee001/blob/master/requirements/hướng%20dẫn.md) để thực hiện
+Xem repo [Yêu cầu](https://github.com/colombo-trainee/trainee001) để thực hiện
 
 # Chú ý
 
