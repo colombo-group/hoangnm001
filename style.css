@@ -275,14 +275,25 @@ body{
 #main-center-list ul li{
     margin-bottom: -5px;
 }
+#main-center-list ul li:last-child{
+    margin-bottom: 30px;
+}
 #noi-dung{
     height: auto;
     margin: 0 0 10px 0;
     float: left;
     border-bottom: 1px dashed #dddddd;
 }
+#noi-dung p:first-child{
+    font-weight: bold;
+}
 #noi-dung p{
     font-size: 16px;
+}
+#noi-dung p:first-child{
+    font-size: 15px;
+    color:#666666;
+    margin-bottom: -15px;
 }
 #main-bottom-list li{
     display: inline-block;
@@ -296,7 +307,7 @@ body{
     border: 1px solid #dddddd;
     text-align: center;
 }
-.one:after, #one:before{
+.one:after, .one:before{
     width:0;
     height:0;
     content: "";
@@ -306,12 +317,12 @@ body{
 .one:after{
     border: 4px solid transparent;
     border-right-color: white;
-    top: 6px;
+    top: 5px;
 }
 .one:before{
     border: 5px solid transparent;
     border-right-color: #dddddd;
-    top: 5px;
+    top: 4px;
 }
 #note img{
     float: left;
@@ -330,7 +341,7 @@ body{
     margin-top: 25px;
     padding-top: 10px;
 }
-#sidebar a{
+#sidebar>a{
     padding: 15px 0 0 15px;
     font-size: 23px;
     color: black;
@@ -353,6 +364,14 @@ body{
     float: left;
     margin-right: 10px;
 }
+.tin-sidebar p a{
+    font-size: 11px;
+    color: #666666;
+    font-weight: bold;
+}
+.tin-sidebar:hover a{
+    color: #56aaf2;
+}
 .tin-sidebar p{
     margin: 0;
     font-size: 11px;
@@ -364,6 +383,7 @@ body{
     background-image: url("images/bg-footer.jpg");
 }
 #footer-top ul li{
+    margin-top: 15px;
     display: inline-block;
     padding-right: 0;
     padding-left: 0;
@@ -376,6 +396,7 @@ body{
 }
 #footer-bottom-left{
     float: left;
+    margin-top: 45px;
 }
 #footer-bottom-left p{
     color: white;
@@ -391,5 +412,10 @@ body{
 }
 #footer-bottom-right{
     float: right;
+    width: 436px;
+    height: 231px;
     cursor: pointer;
+    margin-top: 45px;
+    display: block;
+    background: url("images/map-footer.jpg") 50% transparent;
 }
